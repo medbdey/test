@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Figtree">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  
+     *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background: #f4d04e;
+      font-family: 'Figtree', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container{
+      width: 350px;
+      height: 62vh;
+      background: white;
+      margin-top: 150px;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: #121212 10px 10px 0 1px;
+      border: 1px solid #121212;
+    }
+    .logo{
+      width: 300px;
+      margin-top: 20px;
+      margin-left: 15px;
+      border-radius: 10px;
+    }
+
+    .text1{
+      font-size: 16px;
+      font-weight: 700;
+      background-color: #f4d04e;
+      color: #121212;
+      width: 80px;
+      margin: 15px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .text2{
+      font-size: 13px;
+      margin: 15px;
+    }
+    .text3{
+      margin: 15px;
+      font-weight: 700;
+    }
+    .text4{
+      margin: 15px;
+      font-size: 14px;
+      color: #6b6b6b;
+      line-height: 20px;
+    }
+    .avatar{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-left: 15px;
+      margin-top: 10px;
+    }
+    span{
+      font-weight: 700;
+      font-size: 14px;
+      color: #121212;
+      margin-left: 10px;
+      position: relative;
+      top: -10px;
+    }
+
+    @media (max-width:375px) {
+      .container{
+        width: 300px;
+        height: 58vh;
+        
+      }
+      .logo{
+        width: 280px;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-right: 15px;
+      }
+      
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+<img class="logo" src="illustration-article.svg" alt="">
+  
+<p class="text1">Learning</p>
+
+  <p class="text2">Published 21 Dec 2023</p>
+
+  <h3 class="text3">HTML & CSS foundations</h3>
+
+  <p class="text4">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+
+  <img class="avatar" src="image-avatar.webp" > <span>Greg Hooper</span>
+  
+ 
+  </div>
+</body>
+</html>
